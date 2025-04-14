@@ -48,7 +48,7 @@ El sitio cuenta con 5 páginas HTML:
 
 ---
 
-## 🚀 Publicación
+ Publicación
 
 Repositorio en GitHub con estructura lista para deploy en GitHub Pages:
 ```
@@ -61,9 +61,5 @@ Repositorio en GitHub con estructura lista para deploy en GitHub Pages:
 ├── scss/
 ├── img/
 └── README.md ✅
-```
 
-URL de GitHub Pages: *(se agrega luego de deploy)*
-
----
 
