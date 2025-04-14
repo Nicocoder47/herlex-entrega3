@@ -1,0 +1,146 @@
+
+/* Variables CSS */
+:root {
+  --color-principal: #8c7851;
+  --color-fondo: #fdfdfd;
+  --color-texto: #333;
+  --color-claro: #ffffff;
+  --color-overlay: rgba(0, 0, 0, 0.5);
+  --sombra-box: 0 10px 30px rgba(0, 0, 0, 0.05);
+  --radius-base: 1rem;
+  --padding-base: 1.5rem;
+  --fuente-principal: 'Source Sans Pro', sans-serif;
+}
+
+/* Fuente */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: var(--fuente-principal);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar-nav .nav-link {
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--color-principal);
+  font-weight: bold;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(var(--color-overlay), var(--color-overlay)), url('../img/hero/index.jpg') center/cover no-repeat;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: var(--color-claro);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  animation: fadeInDown 1.2s ease-out both;
+}
+
+.hero p {
+  animation: fadeInUp 1.2s ease-out both;
+  margin-top: 1rem;
+}
+
+.hero a.btn {
+  margin-top: 2rem;
+  padding: 12px 32px;
+  font-size: 1rem;
+  background-color: var(--color-claro);
+  color: var(--color-texto);
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.hero a.btn:hover {
+  background-color: var(--color-principal);
+  color: #fff;
+}
+
+/* Icon Box */
+.icon-box {
+  background-color: var(--color-claro);
+  padding: var(--padding-base);
+  border-radius: var(--radius-base);
+  box-shadow: var(--sombra-box);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.icon-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: var(--color-claro);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+footer p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+/* Animaciones */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero {
+    height: 70vh;
+    padding: 2rem;
+  }
+  .icon-box {
+    margin-bottom: 1rem;
+  }
+}
+

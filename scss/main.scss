@@ -1,0 +1,17 @@
+
+$color-principal: #8c7851;
+$padding-base: 1rem;
+
+@mixin titulo-seccion {
+  font-weight: 700;
+  margin-bottom: $padding-base;
+  color: $color-principal;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+
+  h1, h2 {
+    @include titulo-seccion;
+  }
+}

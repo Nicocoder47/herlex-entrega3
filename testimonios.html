@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Testimonios | Herlex</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .hero-testimonios {
+      background: url('img/testimonios/testimonios.jpg') center/cover no-repeat;
+      height: 60vh;
+      position: relative;
+      color: white;
+    }
+    .hero-testimonios::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .hero-testimonios h1 {
+      position: relative;
+      z-index: 1;
+    }
+    .testimonio {
+      background: #f8f9fa;
+      border-left: 5px solid #8c7851;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-uppercase" href="index.html">Herlex</a>
+    </div>
+  </nav>
+
+  <section class="hero-testimonios d-flex align-items-center justify-content-center text-center">
+    <h1 class="display-5 fw-bold">Lo que nuestras clientas dicen</h1>
+  </section>
+
+  <section class="py-5">
+    <div class="container">
+      <div class="testimonio">
+        <p>“Gracias a Herlex pude resolver mi situación laboral con total tranquilidad. Me sentí acompañada y respaldada en todo momento.”</p>
+        <strong>- Camila R., clienta</strong>
+      </div>
+      <div class="testimonio">
+        <p>“Encontré en Herlex un equipo cálido, humano y muy profesional. Recomiendo 100% su atención legal.”</p>
+        <strong>- Julieta M., clienta</strong>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
