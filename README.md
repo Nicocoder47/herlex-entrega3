@@ -1,7 +1,7 @@
 
 # HERLEX | Estudio Jurídico Boutique 💼✨
 
-**Sitio web responsive y profesional** para el estudio jurídico de abogadas *Herlex*, desarrollado como parte del curso de Desarrollo Web en Coderhouse.
+* para el estudio jurídico de abogadas *Herlex*, desarrollado como parte del curso de Desarrollo Web en Coderhouse.
 
 ---
 
@@ -9,7 +9,7 @@
 
 El sitio cuenta con 5 páginas HTML:
 
-- `index.html` – Inicio con imagen hero animada y propuesta de valor
+- `index.html` – 
 - `nosotras.html` – Presentación del equipo
 - `servicios.html` – Detalle de áreas legales de especialidad
 - `testimonios.html` – Comentarios de clientas reales
@@ -40,21 +40,11 @@ El sitio cuenta con 5 páginas HTML:
 
 ## 📱 Responsive + Accesibilidad
 
-- Mobile first ✅
+- Mobile first 
 - Foco visual en navegación por teclado
 - Alt en imágenes
 - Buen contraste de texto
 
----
-
-## ✨ Mejoras premium
-
-- Imágenes con diseño realista IA
-- Hero con superposición + CTA animada
-- Botones con hover y transición suave
-- Testimonios con diseño visual atractivo
-- Footer con datos de contacto
-- Preparado para agregar botón de WhatsApp flotante y favicon
 
 ---
 
@@ -77,4 +67,3 @@ URL de GitHub Pages: *(se agrega luego de deploy)*
 
 ---
 
-Sitio creado con 💻, diseño con amor y un toque de IA 🧠
